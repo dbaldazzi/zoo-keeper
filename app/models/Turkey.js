@@ -1,5 +1,6 @@
-class Falcon {
+class Turkey {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,13 +8,15 @@ class Falcon {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
     this.weight = weight;
     this.tailLength = tailLength;
-    this.teethSzie = teethSize;
+    this.teethSize = teethSize;
+
   }
 }
 
-export default Falcon; 
+export default Turkey; 

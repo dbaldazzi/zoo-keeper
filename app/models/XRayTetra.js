@@ -1,5 +1,6 @@
-class Weasel {
+class XRayTetra {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,6 +8,7 @@ class Weasel {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
@@ -14,6 +16,7 @@ class Weasel {
     this.tailLength = tailLength;
     this.teethSize = teethSize;
   }
+
 }
 
-export default Weasel; 
+export default XRayTetra;

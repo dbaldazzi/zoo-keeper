@@ -1,5 +1,6 @@
-class XRayTetra {
+class Zebra {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,6 +8,7 @@ class XRayTetra {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
@@ -14,7 +16,6 @@ class XRayTetra {
     this.tailLength = tailLength;
     this.teethSize = teethSize;
   }
-
 }
 
-export default XRayTetra;
+export default Zebra; 

@@ -1,5 +1,6 @@
 class Lemur {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,6 +8,7 @@ class Lemur {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;

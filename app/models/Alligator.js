@@ -1,5 +1,6 @@
 class Alligator {
     constructor(
+        type = '',
         name = '',
         color = '',
         gender = '',
@@ -8,7 +9,8 @@ class Alligator {
         teethSize = '',
     ) {
         this.id = 0,
-            this.name = name;
+            this.type = type;
+        this.name = name;
         this.color = color;
         this.gender = gender;
         this.weight = weight;

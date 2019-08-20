@@ -1,5 +1,6 @@
-class Scorpion {
+class Manatee {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,6 +8,7 @@ class Scorpion {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
@@ -16,4 +18,4 @@ class Scorpion {
   }
 }
 
-export default Scorpion; 
+export default Manatee; 

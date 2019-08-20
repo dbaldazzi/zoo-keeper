@@ -1,5 +1,6 @@
-class Turkey {
+class Jackel {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,14 +8,14 @@ class Turkey {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
     this.weight = weight;
     this.tailLength = tailLength;
     this.teethSize = teethSize;
-
   }
 }
 
-export default Turkey; 
+export default Jackel; 

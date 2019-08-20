@@ -1,13 +1,14 @@
-class Hamster {
+class Weasel {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
     weight = 0,
     tailLength = 0,
     teethSize = '',
-
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
@@ -17,4 +18,4 @@ class Hamster {
   }
 }
 
-export default Hamster; 
+export default Weasel; 

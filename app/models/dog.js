@@ -1,5 +1,6 @@
 class Dog {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,6 +8,7 @@ class Dog {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;

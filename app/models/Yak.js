@@ -1,5 +1,6 @@
-class Quail {
+class Yak {
   constructor(
+    type = '',
     name = '',
     color = '',
     gender = '',
@@ -7,14 +8,15 @@ class Quail {
     tailLength = 0,
     teethSize = '',
   ) {
+    this.type = type;
     this.name = name;
     this.color = color;
     this.gender = gender;
     this.weight = weight;
     this.tailLength = tailLength;
-    this.teethSeize = teethSize;
+    this.teethSize = teethSize;
 
   }
 }
 
-export default Quail; 
+export default Yak; 
