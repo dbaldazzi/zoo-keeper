@@ -53,5 +53,7 @@ let Yarn = new Yak("mammal", "Yarn", "tan", "F", 200, 1, "medium")
 let Zeb = new Zebra("mammal", "Zeb", "black and wight", "M", 300, 15, "medium")
 let Nut = new Newt("mammal", "Nut", "green", "M", 1, 1, "tiny")
 
-window["Alligator"] = new Alligator()
-window["Bear"] = new Bear() 
+let animals = [Zeb, Nut, Petter, Oliver, Marti, Ida, Ted, Robbin]
+let mammals = []
+
+function sortMammals(arr)
